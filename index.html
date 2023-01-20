@@ -13,11 +13,33 @@
 </head>
 <body>
     <header>
-        <nav>
-            <img src="/assets/logo/Booki@3x.png" alt="logo de Booki">
-            <a href="hebergement">Hébergements</a>
-            <a href="activites">Activités</a>
+        <!-- NAVBAR -->
+        <nav class="navbar">
+            <div class="logo">
+                <img src="/assets/logo/Booki@3x.png" alt="logo de Booki">
+            </div>
+            <div class="menu">
+                <a class="lienHebergements" href="hebergements">Hébergements</a>
+                <a class="lienActivites" href="activites">Activités</a>
+            </div>
         </nav>
+        <!-- RECHERCHE -->
+        <div class="tete">
+            <h1>Trouvez votre hébergement pour des vancances de rêve</h1>
+            <h2>En plein centre-ville ou en pleine nature</h2>
+        </div>
+        <div class="barreDeRecherche">
+            <div class="iconLocation">
+                <i class="fa-solid fa-location-dot"></i>
+            </div>
+            <div class="champDeRecherche">
+                <input type="text" placeholder="Marseille, France">
+            </div>
+            <button class="rechercheLoupe">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+            <button class="recherche" type="submit">Rechercher</button>
+        </div>
     </header>
     
 </body>
