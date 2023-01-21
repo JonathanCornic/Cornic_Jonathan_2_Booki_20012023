@@ -143,7 +143,7 @@ header{
     border-radius: 50%;
     margin-right: 15px;
 }
-/* HERBERGEMENT ET POPULAIRE */
+/* CORP HERBERGEMENT  */
 .corp{
     width: 100%;
     display: flex;
@@ -216,14 +216,9 @@ header{
     font-size: 18px;
     margin-top: 30px;
 }
+/* ***CORP POPULAIRE*** */
 
-
-
-
-
-
-
-.conteneurPopulaire{
+.grandConteneurPopulaire{
     width: 35%;
     height: auto;
     background: #F2F2F2;
@@ -237,4 +232,25 @@ header{
 }
 .titrePopulaire i{
     color: #0065FC;
+}
+.conteneurGlobalCartePopulaire{
+
+}
+.cartePopulaire{
+    width: 100%;
+    height: 144px;
+    background: #FFFFFF;
+    border-radius: 20px;
+}
+.espaceImageCartePopulaire{
+    width: 137px;
+    height: 100%;
+    border:5px solid #FFFFFF;
+    border-radius: 20px 0 0 20px;
+}
+.espaceImageCartePopulaire img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px 0 0 20px;
+    object-fit: cover;
 }
