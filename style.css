@@ -134,7 +134,10 @@ body{
     padding: 30px;
 }
 .conteneurGlobalCarteHebergements{
-    gap: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 15px;
 }
 .carteHebergements{
     width: 30%;
@@ -154,7 +157,34 @@ body{
     border-radius: 20px 20px 0 0;
     object-fit: cover;
 }
-
+.descriptionCarteHebergements{
+    padding-left: 10px;
+}
+.descriptionCarteHebergements h3{
+    font-weight: 700;
+    font-size: 16px;
+}
+.descriptionCarteHebergements p{
+    font-weight: 400;
+    font-size: 14px;
+    margin: 5px 0;
+}
+.notation{
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 10px;
+}
+.notation i{
+    color: #0065FC;
+}
+.notation i:nth-child(5){
+    color: #F2F2F2;
+}
+.plus{
+    font-weight: 700;
+    font-size: 18px;
+    margin-top: 30px;
+}
 
 
 
