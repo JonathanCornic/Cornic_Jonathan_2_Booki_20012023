@@ -7,6 +7,7 @@ body{
     font-family: 'Raleway', sans serif;
     padding: 0 40px;
     max-width: 1400px;
+    min-width: 1400px;
     margin: auto;
 }
 /* NAVBAR */
@@ -150,7 +151,7 @@ header{
     justify-content: space-between;
 }
 .grandConteneurHebergements{
-    width: 60%;
+    width: 66%;
     height: auto;
     background: #F2F2F2;
     border-radius: 20px;
@@ -219,7 +220,7 @@ header{
 /* ***CORP POPULAIRE*** */
 
 .grandConteneurPopulaire{
-    width: 35%;
+    width: 30%;
     height: auto;
     background: #F2F2F2;
     border-radius: 20px;
@@ -229,21 +230,29 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-bottom: 30px;
 }
 .titrePopulaire i{
     color: #0065FC;
 }
 .conteneurGlobalCartePopulaire{
-
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
 }
 .cartePopulaire{
     width: 100%;
     height: 144px;
     background: #FFFFFF;
     border-radius: 20px;
+    display: flex;
+}
+.cartePopulaire a{
+    display: flex;
 }
 .espaceImageCartePopulaire{
-    width: 137px;
+    width: 40%;
+    min-width: 137px;
     height: 100%;
     border:5px solid #FFFFFF;
     border-radius: 20px 0 0 20px;
@@ -253,4 +262,24 @@ header{
     height: 100%;
     border-radius: 20px 0 0 20px;
     object-fit: cover;
+}
+.descriptionCartePopulaire{
+    padding: 15px 15px 0 15px;
+    width: 60%;
+    min-width: 199px;
+}
+.descriptionCartePopulaire h3{
+    font-weight: 700;
+    font-size: 16px;
+}
+.descriptionCartePopulaire p{
+    font-weight: 400;
+    font-size: 14px;
+    margin: 10px 0;
+}
+.descriptionCartePopulaire .notation{
+    margin-top: 35px;
+}
+.descriptionCartePopulaire .bleuEtBlanc{
+    margin: 55px 0 0 0;
 }
