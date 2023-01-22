@@ -1,15 +1,12 @@
+/* ***reglages global*** */
+html{
+    scroll-behavior: smooth;
+}
 *{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
-body img{
-    /* display: none; */
-}
-.logoDeBooki{
-    display: initial;
-}
-/* ***reglages global*** */
 body{
     font-family: 'Raleway', sans serif;
     max-width: 1400px;
@@ -36,6 +33,9 @@ h4{
 }
 i{
     color: #0065FC;
+}
+.carteHebergements, .cartePopulaire, .carteActivites{
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.196);
 }
 /* ***NAVBAR*** */
 .navbar{
@@ -297,4 +297,41 @@ i{
 .descriptionCartePopulaire .notation{
     flex-grow: 2;
     align-items: flex-end;
+}
+/* ***ACTIVITES*** */
+.zoneActivites{
+    width: 100%;
+    padding: 15px;
+}
+.grandConteneurActivites{
+    width: 100%;
+}
+#activites{
+    margin: 25px;
+}
+.conteneurGlobalCarteActivites{
+    display: flex;
+    justify-content: space-between;
+}
+.carteActivites{
+    width: 22%;
+    height: 445px;
+    border-radius: 20px;
+}
+.espaceImageCarteActivites{
+    width: 100%;
+    height: 389px;
+}
+.espaceImageCarteActivites img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px 20px 0 0;
+    object-fit: cover;
+}
+.descriptionCarteActivites{
+    display: flex;
+    height: 57px;
+    padding: 0 15px;
+    align-items: center;
+    justify-content: start;
 }
