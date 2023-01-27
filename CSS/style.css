@@ -64,8 +64,8 @@ i{
     height: 12rem;
  }
 .logoDeBooki{
-    width: 9.2rem;
-    height: 2.9rem; 
+    width: 9.6rem;
+    height: 3rem; 
  }
 .grandConteneurLiens{
     display: flex;
@@ -410,11 +410,11 @@ i{
         height: auto;
     }
     .logo{
-        margin: 3rem;
+        margin: 6rem;
     }
     .logoDeBooki{
         width: 16rem;
-        height: 5.8rem; 
+        height: 5rem; 
     }
     .grandConteneurLiens{
         width: 100%;
