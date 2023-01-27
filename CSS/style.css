@@ -33,10 +33,10 @@ h2{
     font-size: 2.2rem;  
 }
 h3{
-    font-size: 1.8rem;
-}
-h4{
     font-size: 1.6rem;
+}
+.conteneurInfoFooter h3{
+    font-size: 1.8rem;
 }
 p{
     font-weight: 500;
@@ -153,6 +153,9 @@ i{
     display: flex;
     align-items: center;
 }
+.titreFiltres{
+    font-size: 1.8rem;
+}
 .conteneurFiltres{
     display: flex;
     justify-content: space-around;
@@ -239,7 +242,7 @@ i{
     justify-content: space-around;
     padding: 0 0.8rem;
 }
-.descriptionCarteHebergements h4, .descriptionCarteHebergements p{
+.descriptionCarteHebergements h3, .descriptionCarteHebergements p{
     font-size: clamp(1.3rem, 1.2vw, 1.6rem);
 }
 .plus{
@@ -288,7 +291,7 @@ i{
     flex-direction: column;
     padding: 0.8rem;
 }
-.descriptionCartePopulaire h4, .descriptionCartePopulaire p{
+.descriptionCartePopulaire h3, .descriptionCartePopulaire p{
     margin-bottom: 0.4rem;
     font-size: clamp(1.3rem, 1.2vw, 1.6rem);
 }
@@ -534,7 +537,7 @@ i{
     .descriptionCartePopulaire{
         padding: 2rem;
     }
-    .descriptionCartePopulaire h4{
+    .descriptionCartePopulaire h3{
         margin-bottom: 2rem;
     }
     .grandConteneurHebergements{
@@ -550,9 +553,9 @@ i{
         height: 26rem;
         border-radius: 4rem 4rem 0 0;
     }
-    .descriptionCartePopulaire h4,
-    .descriptionCarteHebergements h4,
-    .descriptionCarteActivites h4{
+    .descriptionCartePopulaire h3,
+    .descriptionCarteHebergements h3,
+    .descriptionCarteActivites h3{
         font-size: 4rem;
     }
     .descriptionCartePopulaire p,
