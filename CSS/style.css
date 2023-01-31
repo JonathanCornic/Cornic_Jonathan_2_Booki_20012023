@@ -226,7 +226,7 @@ i{
     border-radius: 2rem;
 }
 .espaceImageCarteHebergements{
-    height: 11rem;
+    height: 13rem;
     border: 5px solid #FFFFFF;
     border-radius: 2rem 2rem 0 0;
 }
@@ -434,17 +434,20 @@ i{
     .conteneurLienHebergements a::before,
     .conteneurLienAcitivites a::before{
         background: #F2F2F2;
-        top: 6.5rem;
+        top: 9.5rem;
         height: 0.3rem;
     }
     /* ***titre/filtre/infobar*** */
-    .conteneurTitre, 
+    .conteneurTitre{
+        margin: 10rem 3rem 0;
+    }
     .filtres, 
     .infobar{
         margin: 2rem 3rem;
     }
     .conteneurTitre p{
         font-size: 5rem;
+        margin: 2rem 0;
     }
     .barreDeRecherche{
         margin: 7rem 3rem;
