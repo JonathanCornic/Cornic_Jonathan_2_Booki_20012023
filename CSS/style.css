@@ -64,8 +64,8 @@ i{
     height: 12rem;
  }
 .logoDeBooki{
-    width: 9.6rem;
-    height: 3rem; 
+    width: 6rem;
+    height: 1.8rem; 
  }
 .grandConteneurLiens{
     display: flex;
@@ -96,12 +96,13 @@ i{
     background-color: #0065FC;
 }
 /* ***TITRE*** */
-.conteneurTitre, .conteneurTitre p{
-    margin: 3rem 0;
+.conteneurTitre p{
+    margin: 1rem 0;
 }
 /* ***RECHERCHE*** */
 .barreDeRecherche{
     display: flex;
+    margin: 1.5rem 0;
 }
 .iconLocation{
     width: 5rem;
