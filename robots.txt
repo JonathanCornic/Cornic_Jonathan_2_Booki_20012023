@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://cornic-jonathan-2-booki-20012023.pages.dev/sitemap.xml
