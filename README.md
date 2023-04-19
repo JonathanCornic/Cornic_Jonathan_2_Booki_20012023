@@ -20,8 +20,8 @@ Ce projet a pour but d'intégrer la maquette de la page d'accueil d'un site de l
 
 ## Comment exécuter le projet localement
 
-1. Clonez le repository : `https://github.com/JonathanCornic/Cornic_Jonathan_2_Booki_20012023`
-2. Accédez au dossier du projet : `cd booki`
+1. Ouvrir un terminal : entrer `cd desktop`
+2. Clonez le repository : entrer git clone `https://github.com/JonathanCornic/Cornic_Jonathan_2_Booki_20012023`
 3. Ouvrez le fichier `index.html` dans votre navigateur pour visualiser le site localement.
 
 ## Comment voir le rendu hébergé
