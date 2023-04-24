@@ -6,6 +6,8 @@ Projet  2 OpenClassrooms
 
 Ce projet a pour but d'intégrer la maquette de la page d'accueil d'un site de location d'hébergements de vacances nommé __Booki__. La page est `responsive` et les images ont été optimisées en utilisant le format nouvelle génération `WebP`. De plus, des fichiers `.htaccess`, `robots.txt` et `sitemap` ont été ajoutés pour améliorer la sécurité et le référencement du site.
 
+<img src="https://github.com/JonathanCornic/Cornic_Jonathan_2_Booki_20012023/blob/master/Booki%20preview.png" />
+
 ## Fonctionnalités
 
 - Présentation des hébergements de vacances proposés par Booki, avec des images de haute qualité et des descriptions détaillées.
